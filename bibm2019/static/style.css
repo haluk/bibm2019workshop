@@ -1,0 +1,326 @@
+* {
+  box-sizing: border-box;
+}
+
+.gray { color: #F8F8FF; }
+.red { color: #f3cf55; }
+
+.flex { display: flex; flex-wrap: wrap; }
+.row { width: 100% }
+.col-75 { width: 75% }
+.col-50 { width: 50% }
+.col-33 { width: 33.33% }
+.col-25 { width: 25% }
+.center { text-align: center; }
+
+body {
+  font: 20px/1.5 museo-slab, serif;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: museo-sans, sans-serif;
+}
+
+h2, h3, h4, h5 {
+  font-weight: 100;
+  color: #d14e4d;
+}
+
+a {
+  color: #d14e4d;
+  text-decoration: none;
+}
+
+a[href="#"] {
+  color: silver;
+}
+
+img {
+  max-width: 100%;
+}
+
+pre {
+  font: inherit;
+}
+
+header {
+  background: url(banner.png) no-repeat center top;
+  background-attachment: fixed;
+  background-size: contain;
+  height: 33vw;
+  padding: 1.5rem;
+  position: relative;
+}
+
+h1 {
+  margin: 0;
+  font-size: 6rem;
+}
+
+h1 .red {
+  font-size: 100%;
+  font-weight: 300;
+  line-height: 1.25;
+  letter-spacing: 0.2em;
+  margin-left: 0.1em;
+}
+
+h1 .gray {
+  font-size: 25%;
+  font-weight: 100;
+  letter-spacing: 0.4em;
+}
+
+nav {
+  padding: 0 1.5rem;
+  min-height: 4rem;
+}
+
+nav ul {
+  list-style: none;
+  max-width: 90rem;
+  padding: 0;
+  margin: 0 auto;
+  background: white;
+  min-height: 4rem;
+  align-items: stretch;
+}
+
+nav li {
+  flex: auto;
+}
+
+nav a {
+  display: inline-block;
+  background: white;
+  line-height: 4rem;
+  padding: 0 1.5rem;
+  white-space: nowrap;
+  transition: all ease-in-out 0.2s;
+  text-align: center;
+  width: 100%;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a[href="#"]:hover {
+  color: silver;
+}
+
+nav a.active {
+  font-weight: bold;
+}
+
+.page {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+#about {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+#organizer {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  align-items: center;
+}
+
+#program-committee {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+#important-date {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+#accepted-papers {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+
+#schedule {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.timeslot td {
+  font-size: 0.8em;
+  vertical-align: top;
+}
+
+.timeslot .time {
+  width: 15%;
+  text-align: right;
+  padding-right: 1.5rem;
+}
+
+.timeslot .title {
+  font-weight: bold;
+  width: 50%;
+  padding-right: 1.5rem;
+}
+
+.timeslot .person {
+  width: 35%;
+}
+
+#speakers {
+  background: url(girlandnoy.png) no-repeat center 6rem;
+  background-size: 25rem;
+  padding: 30rem 1.5rem 1.5rem;
+}
+
+#speakers h2 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.speaker {
+  padding: 1.5rem;
+}
+
+.speaker-box {
+  padding-top: 100%;
+  background: center top no-repeat;
+  background-size: contain;
+}
+
+.speaker-info {
+  background: white;
+  padding: 1.5rem;
+}
+
+.speaker-info h3 {
+  margin: 0;
+}
+
+.speaker-info h4 {
+  margin-top: 0;
+}
+
+.speaker-info .bio {
+  font-size: 0.8em;
+}
+
+#tickets {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+#tickets .tb-submit {
+  background: #d14e4d;
+}
+
+#sponsors {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+#sponsors h2 {
+  margin-bottom: 3rem;
+}
+
+.sponsors ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sponsor {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.sponsor h4 {
+  line-height: 1;
+  margin: 0;
+}
+
+.sponsor img {
+  margin: 1.5rem 1.5rem 1.5rem -1.5rem;
+}
+
+.sponsor .blurb {
+  font-size: 0.8em;
+}
+
+footer {
+  margin-top: 25vh;
+  padding: 1.5rem;
+}
+
+@media (min-width: 600px) {
+  .header-hidden nav ul {
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .col-75,
+  .col-50,
+  .col-33,
+  .col-25 {
+    width: 100%;
+  }
+  header {
+    background-size: 90rem;
+    background-attachment: scroll;
+    height: 30rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  nav li {
+    width: 50%;
+  }
+  nav a {
+    line-height: 3rem;
+    padding: 0;
+  }
+  .timeslot {
+    display: block;
+    margin-bottom: 1.5rem;
+  }
+  .timeslot .time,
+  .timeslot .title,
+  .timeslot .person {
+    text-align: left;
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+  #speakers {
+    background-position: center top;
+    background-size: 15rem;
+    padding-top: 15rem;
+  }
+  .sponsor img {
+    margin: 1.5rem 0;
+  }
+}
