@@ -1,0 +1,35 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="{{ this.title }}">
+<meta property="og:url" content="{{ this|url(external=True) }}">
+<meta property="og:description" content="The International Workshop on Expository Representation Learning of Biomedical Data @ BIBM 2019">
+<meta property="og:image" content="{{ '/static/og.jpg'|url(external=True) }}">
+<script src="https://use.typekit.net/bmw2mzd.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<link rel="stylesheet" href="{{ '/static/normalize.min.css'|asseturl }}">
+<link rel="stylesheet" href="{{ '/static/style.css'|asseturl }}">
+<title>{% block title %}{{ this.title }}{% endblock %}</title>
+<body>
+  <header>
+    <h2 class="center">
+      <div class="red"><b>The International Workshop on Expository Representation Learning of Biomedical Data</b></div>
+      <div class="gray">November 18-21, 2019, San Diego</div>
+    </h2>
+  </header>
+  <nav data-gumshoe-header>
+    <ul data-gumshoe class="flex">
+      <li><a href="http://ieeebibm.org/BIBM2019/" target="_blank">BIBM 2019</a></li>
+      <li><a data-scroll href="/#about">Home</a></li>
+      <li><a data-scroll href="/#organizer">Organizers</a></li>
+      <li><a data-scroll href="/#program-committee">Program Committee</a></li>
+      <li><a data-scroll href="/#important-date">Important Dates</a></li>
+      <li><a data-scroll href="/#accepted-papers">Accepted Papers</a></li>
+      <li><a data-scroll href="/#schedule">Workshop Schedule</a></li>
+    </ul>
+  </nav>
+  {% block body %}{% endblock %}
+  {% block js %}
+  <script src="{{ '/static/header.js'|asseturl }}"></script>
+  {% endblock %}
+</body>

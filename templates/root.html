@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div id="about">
+  {{ this.about }}
+</div>
+<div id="organizer" class="flex">
+  <div class="col-100">
+    <h2>Organizers</h2>
+    {{ this.organizer }}
+  </div>
+</div>
+<div id="program-committee" class="flex">
+  <div class="venue-text col-100">
+    <h2>Program Committee</h2>
+    {{ this.programcommittee }}
+  </div>
+</div>
+<div id="important-date" class="flex">
+  <div class="venue-text col-100">
+    <h2>Important Dates</h2>
+    {{ this.importantdate }}
+  </div>
+</div>
+<div id="accepted-papers" class="flex">
+  <div class="venue-text col-100">
+    <h2>Accepted Papers</h2>
+    {{ this.acceptedpapers }}
+  </div>
+</div>
+
+<div id="schedule">
+  <h2>Workshop Schedule</h2>
+  {{ this.schedule }}
+</div>
+
+{% endblock %}
+
+{% block js %}
+{{ super() }}
+<script src="{{ '/static/smooth-scroll.min.js'|asseturl }}"></script>
+<script src="{{ '/static/gumshoe.min.js'|asseturl }}"></script>
+<script src="{{ '/static/bricks.min.js'|asseturl }}"></script>
+<script src="{{ '/static/root.js'|asseturl }}"></script>
+{% endblock %}

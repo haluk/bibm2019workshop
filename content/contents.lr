@@ -1,0 +1,73 @@
+_model: root
+---
+title: Expository Representation Learning of Biomedical Data
+---
+body: 
+---
+about:
+
+[<center><h2><font color="blue"><b>Online Submission</b></font></h2></center>](https://wi-lab.com/cyberchair/2019/bibm19/scripts/submit.php?subarea=S22&undisplay_detail=1&wh=/cyberchair/2019/bibm19/scripts/ws_submit.php)
+
+In today's world data is produced at a mind-boggling volume and
+pace. According to marketing reports 90 percent of the data in the
+world was produced within the past two years. With the recent advances
+in high-throughput technologies, OMICS data in the biomedical field
+would be one of the biggest contributor to this everlasting
+growth. These large volumes of data are widely accessible; however,
+they are mostly unstructured while having the potential to deepen our
+understanding of complex problems from disease outbreak to disease
+diagnosis and treatment. Statistical and machine learning methods can
+help expose the hidden value of unstructured data, improving
+prediction accuracy, and build predictive models that go beyond human
+performance. Recently, there is a surge of new techniques in the
+context of discovering latent structure in high dimensional data such
+as causal relations in multifaceted regulation networks, genotype and
+phenotype association, genomics signatures, and risk factors
+etc. However, it can still be a long way to obtain satisfactory
+results in scalable learning with increasing data size and
+complexity. Furthermore, a wide variety of technologies produce
+heterogeneous data shedding light on different aspects of complex
+biological systems. Emergence of a more complete picture of biological
+systems depends on successful methods for integration of data from
+these different perspectives.
+
+
+With this workshop, we aim to encourage researchers to develop new
+methodologies, analytical models, and high-throughput computing
+workflow that best utilize various types of biomedical data in ways
+that meaningful structures present but hidden in data can be revealed.
+
+### Topics of Interest
+
+- Data-centric models for diagnosis and classification of complex human disease such as cancers and obesity
+- Learning based prediction models for drug response assessment
+- Integrative models for identification of dynamic and multi-level biological interaction networks (proteins, non-coding genes, metabolites). 
+- Integrative models for discovery of disease associated cell communication
+- Complex phylogenetic models to elucidate cancer genome evolution
+- High-throughput computing workflow development for data mining, visualization, and interpretation
+- High-throughput computing workflow development for biomedical image processing classification
+- Integrative models for visualization and analysis of data in neuroscience
+- Information fusion based modeling for reverse engineering biological networks
+- Inferring genomic signatures from sequencing and expression data
+- Modeling and simulation of complex biological processes in high-throughput computing environments
+
+---
+organizer:
+
+- Juan Cui, PhD, Department of Computer Science and Engineering, University of Nebraska-Lincoln, USA
+- Zeynep Hakguder, Department of Computer Science and Engineering, University of Nebraska-Lincoln, USA
+- Haluk Dogan, Department of Computer Science and Engineering, University of Nebraska-Lincoln, USA
+
+---
+programcommittee: #### **TBD**
+---
+importantdate:
+
+- **September 20, 2019:** Due date for full workshop papers submission
+- **October 15, 2019:** Notification of paper acceptance to authors
+- **November 1, 2019:** Camera-ready submission of accepted papers
+- **November 18-21, 2019:** Workshops
+---
+acceptedpapers: #### **TBD**
+---
+schedule: #### **TBD**
